@@ -127,6 +127,39 @@
     .main__text {
       text-align: center;
     }
+    .subject {
+      background-color: #00adb6;
+      display: flex;
+      padding: 10px;
+      font-size: 14px;
+      width: 40%;
+      margin-bottom: 25px;
+      border-radius: 0.4rem;
+      background: #f4f5f7;
+      padding: 1.5rem 1rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: all ease 0.4s;
+      background: rgba(0, 173, 182, 0.1);
+      margin-right: 50px;
+    }
+    .subject__text {
+      color: #00adb6;
+      margin-top: 5px;
+      margin-right: 10px;
+    }
+    .subject__span {
+      margin-right: 10px;
+    }
+    .subject__img {
+      max-width: 40px;
+      background-color: #fff;
+    }
+    .all {
+      display: flex;
+      justify-content: space-around;
+    }
   </style>
   <body>
     <header class="header">
@@ -168,6 +201,28 @@
     <div class="main__text">
       <span>دسته بندی های منتخب</span>
       <h2 class="main__text_span">موضوعات و محورهای آموزشی پرمنتخب</h2>
+    </div>
+    <br /><br /><br />
+
+    <div class="all">
+      <div class="subject">
+        <div>
+          <img src="assets/img/cat2.png" class="subject__img" />
+        </div>
+        <div>
+          <h3 class="subject__text">آموزش گوگل ارث</h3>
+          <span class="subject__span">1 دوره آموزشی</span>
+        </div>
+      </div>
+      <div class="subject">
+        <div>
+          <img src="assets/img/cat2.png" class="subject__img" />
+        </div>
+        <div class="school">
+          <h3 class="subject__learn">آموزش ArcGIS Desktop</h3>
+          <span class="subject__teacher">3 دوره آموزشی</span>
+        </div>
+      </div>
     </div>
   </body>
 </html>
